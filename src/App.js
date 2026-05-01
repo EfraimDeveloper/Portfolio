@@ -11,18 +11,12 @@ function App() {
 
       just a test for deploy 123
 
-      <h1>TESTE NOVO DO DEPLOY 123</h1>
+      <h1>TESTE NOVO DO DEPLOY</h1>
 
-      just a test for deploy 123
+      <strong>AzureDevOps+Microsoft azure</strong>
 
-      <table>
-        <tr>
-          <th>Name</th>   
-        </tr>
-        <tr>
-          <td>efradev</td>
-        </tr>
-      </table>
+
+
 
       
       </div>
