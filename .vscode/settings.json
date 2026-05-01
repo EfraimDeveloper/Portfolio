@@ -1,0 +1,9 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/9129ea6d-dde9-495c-93a0-c46b3acae759/resourceGroups/react-rg/providers/Microsoft.Web/sites/efraimmarcelinoportfalio",
+    "appService.deploySubpath": "build",
+    "appService.showBuildDuringDeployPrompt": false
+}
