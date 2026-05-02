@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      
       <button className="btn btn-primary">Click me</button>
         <main>
           <section>
