@@ -1,11 +1,12 @@
-
 import './App.css';
 import {projects} from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <button className="btn btn-primary">Click me</button>
         <main>
           <section>
