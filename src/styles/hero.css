@@ -5,24 +5,27 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  padding: 0 20px;
 }
 
-/* VIDEO */
+/* VIDEO BACKGROUND */
 .hero-video {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  top: 0;
+  left: 0;
 }
 
-/* OVERLAY premium */
+/* OVERLAY PREMIUM */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: radial-gradient(
     circle at center,
-    rgba(0,0,0,0.6),
-    rgba(0,0,0,0.85)
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.88)
   );
 }
 
@@ -33,21 +36,22 @@
   max-width: 900px;
   text-align: center;
   padding: 20px;
-  animation: fadeUp 1s ease;
+  animation: fadeUp 1.2s ease-out;
 }
 
 /* TITULO */
 .hero-title {
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  color: #fff;
   line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 /* SUBTITULO */
 .hero-subtitle {
   font-size: 1.2rem;
-  opacity: 0.85;
+  color: rgba(255,255,255,0.85);
   margin-bottom: 30px;
   max-width: 750px;
   margin-left: auto;
@@ -70,13 +74,13 @@
   transition: all 0.3s ease;
 }
 
-/* hover profissional */
+/* HOVER PROFISSIONAL */
 .hero-buttons .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
 
-/* ANIMAÇÃO */
+/* ANIMAÇÃO ENTRADA */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -85,5 +89,53 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* ========================= */
+/* 📱 RESPONSIVIDADE MOBILE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-buttons .btn {
+    width: 80%;
+  }
+
+  .hero-video {
+    filter: brightness(0.6);
+  }
+}
+
+/* ========================= */
+/* 📱 MOBILE PEQUENO */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-buttons .btn {
+    width: 90%;
   }
 }
