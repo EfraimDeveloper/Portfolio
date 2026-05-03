@@ -40,14 +40,17 @@ const VideoHero = () => {
         {/* BOTÕES */}
         <div className="hero-buttons">
 
-          <a href="https://github.com/EfraimDeveloper" target="_blank" className="btn btn-primary btn-lg me-3">
+          <a href="https://github.com/EfraimDeveloper" target="_blank" 
+          className="btn btn-primary btn-lg me-3"
+          
+          rel="noopener noreferrer">
             View Projects
           </a>
 
           <a
             href="https://w.app/04pdlh"
             target="_blank"
-            rel="noreferrer"
+              rel="noopener noreferrer"
             className="btn btn-success btn-lg"
           >
             <FaWhatsapp /> WhatsApp
