@@ -22,7 +22,7 @@ const VideoHero = () => {
             words={[
               "Welcome to my portfolio",
               "Full Stack Developer building scalable applications",
-              "C#• React • PHP • Microsoft Azure • DevOps"
+              "C# • React • PHP • Microsoft Azure • DevOps"
             ]}
             loop={true}
             cursor
@@ -41,7 +41,7 @@ const VideoHero = () => {
         <div className="hero-buttons">
 
           <a href="https://github.com/EfraimDeveloper" target="_blank" 
-          className="btn btn-primary btn-lg me-3"
+          className="btn btn-primary btn-lg"
           
           rel="noopener noreferrer">
             View Projects
