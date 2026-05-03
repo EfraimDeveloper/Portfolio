@@ -7,9 +7,16 @@ const VideoHero = () => {
     <section className="hero">
 
       {/* VIDEO */}
-      <video autoPlay loop muted className="hero-video">
-        <source src="/video/efradev-video.mp4" type="video/mp4" />
-      </video>
+    <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="metadata"
+  className="hero-video"
+>
+  <source src="/video/efradev-video.mp4" type="video/mp4" />
+</video>
 
       {/* OVERLAY */}
       <div className="hero-overlay"></div>
