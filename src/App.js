@@ -2,11 +2,13 @@ import './App.css';
 import {projects} from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
 import Navbar from "./components/Navbar";
+import VideoHero from './components/VideoHero';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <VideoHero />
       
       <button className="btn btn-primary">Click me</button>
         <main>
