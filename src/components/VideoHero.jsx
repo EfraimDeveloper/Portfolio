@@ -3,19 +3,13 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaWhatsapp } from "react-icons/fa";
 
 const VideoHero = () => {
+    const video=process.env.PUBLIC_URL + "/video/efradev-video.mp4";
   return (
     <section className="hero">
 
       {/* VIDEO */}
-    <video
-  autoPlay
-  loop
-  muted
-  playsInline
-  preload="metadata"
-  className="hero-video"
->
-  <source src="/video/efradev-video.mp4" type="video/mp4" />
+    <video autoPlay loop muted playsInline preload="metadata" className="hero-video">
+  <source src={video} type="video/mp4" />
 </video>
 
       {/* OVERLAY */}
