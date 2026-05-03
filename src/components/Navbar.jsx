@@ -4,12 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
       
-      <a className="navbar-brand fw-bold" href="#home">
-
-      EfraDev
-
-
-      </a>
+    git<a className="navbar-brand fw-bold" href="#home">EfraDev</a>
 
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span className="navbar-toggler-icon"></span>
