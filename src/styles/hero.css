@@ -58,7 +58,7 @@
   margin-right: auto;
 }
 
-/* BOTÕES */
+/* BOTÕES CONTAINER */
 .hero-buttons {
   display: flex;
   justify-content: center;
@@ -66,11 +66,17 @@
   flex-wrap: wrap;
 }
 
-/* BOTÕES PREMIUM */
+/* BOTÕES PREMIUM (CORRIGIDO) */
 .hero-buttons .btn {
-  padding: 12px 28px;
+  height: 48px; /* 🔥 garante mesmo tamanho */
+  min-width: 180px; /* 🔥 consistência visual */
+  padding: 0 20px;
   border-radius: 10px;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   transition: all 0.3s ease;
 }
 
@@ -113,7 +119,9 @@
   }
 
   .hero-buttons .btn {
-    width: 80%;
+    width: 85%;
+    min-width: unset;
+    height: 50px;
   }
 
   .hero-video {
@@ -137,5 +145,6 @@
 
   .hero-buttons .btn {
     width: 90%;
+    height: 50px;
   }
 }
