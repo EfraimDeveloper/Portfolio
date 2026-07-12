@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link" href="#cv">CV</a>
+            <a className="nav-link" href="/cv/EFRAIM LUIS MARCELINO Cv-update _Linkedin.pdf" download>CV</a>
           </li>
 
           <li className="nav-item">

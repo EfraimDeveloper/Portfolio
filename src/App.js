@@ -3,6 +3,8 @@ import {projects} from "./data/projects";
 import ProjectCard from "./components/ProjectCard";
 import Navbar from "./components/Navbar";
 import VideoHero from './components/VideoHero';
+import About from './components/About';
+
 
 function App() {
   return (
@@ -10,21 +12,32 @@ function App() {
       <Navbar />
       <VideoHero />
       
-      <button className="btn btn-primary">Click me</button>
-        <main>
-          <section>
-              <h1>My Projects</h1>
-              <p>Here are some of the projects I've worked on:</p>
+          <section id='projects' className="container py-0">
+            <div className="text-center mb-4">
+              <h2 className="display-4 fw-bold">My Projects</h2>
+            </div>
+
+              <div className='row g-4'>
+                  {projects.map((project) => (
+
+                    <div key ={project.id} className='col-12 col-md-6'>
+                  <ProjectCard project={project} />
+                    </div>
+            
+           
+                  ))}
+              </div>
+
+                    
           </section>
-  
-          <section>
-              <h2>Project </h2>
-             {projects.map((project) => (
-  <ProjectCard key={project.title} project={project} />
-))}
+
+          
+          <section id='about'>
+            <About/>
           </section>
-          </main>
-      </div>
+          
+</div>
+
   );
 }
 
