@@ -24,27 +24,28 @@ import s4 from"..//assets/img/s4.png";
 import s5 from"..//assets/img/s5.png";
 
 export const projects = [
+
   {
     id: 1,
-    title: "ClientHub API",
+    title: "Sekwma",
     description:
-      "C# Desktop Application Developer** with experience in C#. I design and develop desktop applications for client management, invoicing, and receipt processing. I also have experience with Docker and Windows virtual machines for application testing and deployment.",
+      "C# Desktop Application Developer with experience in C#. I design and develop desktop applications for client management, invoicing, and receipt processing. I also have experience with Docker and Windows virtual machines for application testing and deployment.",
     images: [
       sekwma1,
       sekwma2,
       sekwma3,
       sekwma4
     ],
-    technologies: ["Windows.Forms", ".NET Framework 3.58", "Unit Testing", "SQL CE"],
-    github: "https://github.com/...",
-    demo: "https://..."
+    technologies: ["Windows.Forms", ".NET Framework 3.5", "Unit Testing", "SQL CE","ILSpy","Eazfuscator.NET"],
+    github: "https://github.com/EfraimDeveloper",
+    demo: "https://github.com/EfraimDeveloper/Sekwma/tree/main/Sekwama01"
   },
 
   {
     id: 2,
-    title: "ClientHub API",
+    title: "Zoom-startup",
     description:
-      "Serverless REST API for client management using .NET 8 and Azure Functions.",
+      "Web-based vehicle management system developed. Includes user management, vehicle tracking, insurance management expense control, reports dynamic interface, interactive, and automated testing with PHPUnit.",
     images: [
       zoon1,
       zoon2,
@@ -53,15 +54,15 @@ export const projects = [
       zoon5
  
     ],
-    technologies: ["C#", ".NET 8", "Azure", "SQL Server"],
-    github: "https://github.com/...",
-    demo: "https://..."
+    technologies: ["PHP", "MySQL","Bootstrap","jQuery","SweetAlert","Chart.js","cPanel"],
+    github: "https://github.com/EfraimDeveloper",
+    demo: "https://github.com/EfraimDeveloper/Zoom-startup.git"
   },
     {
     id: 3,
-    title: "ClientHub API",
+    title: "CDSOFT-Invoicing-Management-System",
     description:
-      "Serverless REST API for client management using .NET 8 and Azure Functions.",
+      "Desktop invoicing system developed for small businesses. Includes company configuration, customer and supplier management, sales, service records, reports, barcode generation, Excel export, and local database.",
     images: [
       cd1,
       cd2,
@@ -70,15 +71,15 @@ export const projects = [
       cd5
  
     ],
-    technologies: ["C#", ".NET 8", "Azure", "SQL Server"],
-    github: "https://github.com/...",
-    demo: "https://..."
+     technologies: ["C#","Windows.Forms", ".NET Framework 4.5", "", "SQL CE","SqlServer","Docker","MSTest","Inno Setup"],
+    github: "https://github.com/EfraimDeveloper",
+    demo: "https://github.com/EfraimDeveloper/CDSOFT---Invoicing-Management-System/tree/main/Sistema_venda"
   },
     {
     id: 4,
-    title: "ClientHub API",
+    title: "Training-Center-Management-System",
     description:
-      "Serverless REST API for client management using .NET 8 and Azure Functions.",
+      "Desktop training center management system built with Windows.Forms. Features student registration, courses, enrollments, tuition payments, classrooms, reports, dashboards, and basic configuration. Uses MetroFramework, ADO.NET, DGVPrinter, and MD5",
     images: [
       s1,
       s2,
@@ -86,9 +87,9 @@ export const projects = [
       s4,
       s5
     ],
-    technologies: ["C#", ".NET 8", "Azure", "SQL Server"],
-    github: "https://github.com/...",
-    demo: "https://..."
+    technologies: ["C#", ".NET 7", "Database.Net", "SQL Server","LINQPad","Git","SSMS","xUnit"],
+    github: "https://github.com/EfraimDeveloper",
+    demo: "https://github.com/EfraimDeveloper/Training-Center-Management-System/tree/main/Projecto_final"
   }
 
 ];
